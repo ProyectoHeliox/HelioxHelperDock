@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="109.0" prefWidth="926.0" style="-fx-background-color: bdbdbd;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="helioxhelper.ui.FXMLDocumentController">
+   <children>
+      <JFXComboBox fx:id="combobox" layoutX="654.0" layoutY="28.0" prefHeight="25.0" prefWidth="122.0" promptText="Idioma" />
+      <HBox fx:id="hboxBotones" layoutX="14.0" layoutY="22.0" prefHeight="73.0" prefWidth="612.0" style="-fx-background-color: red;" />
+      <JFXButton fx:id="button" buttonType="RAISED" layoutX="808.0" layoutY="28.0" onAction="#handleButtonAction" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: f39c12;">
+         <graphic>
+            <ImageView fitHeight="89.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ic_settings_applications_white_24dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+   </children>
+</AnchorPane>

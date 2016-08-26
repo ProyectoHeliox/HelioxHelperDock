@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HelioxHelper.UI.jnlp">
+  <information>
+    <title>HelioxHelper.UI</title>
+    <vendor>phana</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HelioxHelper.UI.jar" size="36011627" download="eager" />
+    <jar href="lib\HelioxHelper.Nucleo.jar" size="77489" download="eager" />
+    <jar href="lib\derbyclient-10.10.1.1.jar" size="582765" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2158932" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="HelioxHelper.UI" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="helioxhelper.ui.HelioxHelperUI"  name="HelioxHelper.UI" />
+  <update check="always"/>
+</jnlp>
